@@ -9,9 +9,13 @@ public class GameOver : MonoBehaviour
 {
     public TextMeshProUGUI roundsText;
 
+    public GameObject ui;
+
     void OnEnable()
     {
         roundsText.text = PlayerStats.Rounds.ToString();
+        ui.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void Retry()

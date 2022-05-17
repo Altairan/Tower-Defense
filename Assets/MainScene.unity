@@ -10330,6 +10330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundsText: {fileID: 478971208}
+  ui: {fileID: 1410030497}
 --- !u!95 &1410030500
 Animator:
   serializedVersion: 3
