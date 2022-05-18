@@ -112,7 +112,7 @@ MonoBehaviour:
   startSpeed: 10
   speed: 10
   health: 100
-  moneyGained: 100
+  moneyGained: 5
   deathEffect: {fileID: 6806852439694301057, guid: 7b3033a14c900744fa188b1eaa77669f, type: 3}
 --- !u!114 &5555909439413401762
 MonoBehaviour:
